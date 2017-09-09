@@ -7,5 +7,5 @@ $query = "
  DELETE FROM category WHERE name='$name' ;
 ";
 $result = mysqli_query($connect, $query);
-
+echo "YES";
 ?>
